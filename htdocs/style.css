@@ -1,0 +1,96 @@
+
+body, html {
+	font-family: 'Geneva', 'Verdana', sans-serif;
+	background-color: #fff;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-style: italic;
+}
+
+#head {
+	margin: 0px;
+	padding: 10px 40px 10px 40px;
+	border-bottom: solid 1px #ddd;
+	
+	background: #cdf; /* for non-css3 browsers */
+
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99aaff', endColorstr='#ffffff');
+	background: -webkit-gradient(linear, left top, left bottom, from(#9af), to(#fff));
+	background: -moz-linear-gradient(top,  #9af,  #fff);
+}
+
+#head h1 {
+	margin: 0px;
+	padding: 10px 0px 10px 0px;
+}
+
+#head h1 a {
+	/*display: block;
+	height: 30px;
+	width: 100px;
+	background-image: ...*/
+	text-decoration: none;
+	color: #000;
+}
+
+#head h1 a:hover {
+	text-decoration: underline;
+}
+
+#head h1 a span {
+	/*display: none;*/
+}
+
+#head ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 10px 0px 10px 0px;
+}
+
+#head ul li {
+	display: inline;
+}
+
+#head ul li a {
+	display: inline;
+	padding: 0px 10px 0px 0px;
+}
+
+#main {
+    margin: 0px;
+    padding: 10px 40px 80px 40px;
+}
+
+#outermain {
+	padding-bottom: 30px;
+}
+
+#container {
+	min-height: 100%;
+	position: relative;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	height: 30px;
+	width: 100%;
+	
+	padding: 0;
+	margin: 0;
+		
+	text-align: right;
+	vertical-align: middle;
+	line-height: 30px;
+	border-top: solid 1px #ddd;
+	color: #bbb;
+}
+
+#footer:after {
+	content: " \00a0 ";
+}
