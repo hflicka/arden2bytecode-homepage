@@ -4,3 +4,6 @@
 [submodule "htdocs/includes/textile"]
 	path = htdocs/includes/textile
 	url = https://github.com/netcarver/textile.git
+[submodule "htdocs/wiki-files"]
+	path = htdocs/wiki-files
+	url = git://github.com/hflicka/arden2bytecode.wiki.git
