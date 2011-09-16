@@ -1,5 +1,5 @@
 # you'll need MSYSGit and cygwin or PuTTY to run this script under windows
-ifeq ($(OS),Windows_NT)
+ifneq ($(prog),cygwin)
 	SCP = 'C:\Program Files (x86)\PuTTY\pscp.exe'
 	IDENTITY_FILE = 'C:\Users\Owner\.ssh\sourceforge.ppk'
 	GIT = 'C:\Program Files (x86)\Git\bin\git.exe'
@@ -13,7 +13,10 @@ else
 	SFTP = sftp
 endif
 
-all: update-repo deploy
+all: clean update-repo deploy
+
+clean:
+	${RM} -r deploy
 
 update-repo:
 	${GIT} pull
@@ -21,5 +24,6 @@ update-repo:
 deploy:
 	${RSYNC} -r --exclude='.git' htdocs deploy/
 #	${SFTP}
-	${SCP} -r -i ${IDENTITY_FILE} deploy/htdocs/* hflicka@web.sourceforge.net:/home/project-web/arden2bytecode/htdocs/
+	${SCP} -r -i ${IDENTITY_FILE} deploy/htdocs/* web.sourceforge.net:/home/project-web/arden2bytecode/htdocs/
+	${SCP} -r -i ${IDENTITY_FILE} deploy/htdocs/.htaccess web.sourceforge.net:/home/project-web/arden2bytecode/htdocs/.htaccess
 
