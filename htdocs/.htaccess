@@ -1,0 +1,7 @@
+RewriteEngine on
+Options +FollowSymlinks
+
+RewriteBase /
+RewriteRule ^$ index.php [QSA,L]
+RewriteRule ^/?docs/([a-zA-Z0-9\-_\ ]*)$ docs.php?view=$1 [QSA,L]
+RewriteRule ^/?([a-zA-Z0-9\-_]+)$ $1.php [QSA,L]
