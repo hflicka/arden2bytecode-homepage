@@ -13,7 +13,7 @@ else
 	SFTP = sftp
 endif
 
-all: clean update-repo deploy
+all: update-repo deploy
 
 clean:
 	${RM} -r deploy
@@ -21,7 +21,7 @@ clean:
 update-repo:
 	${GIT} pull
 	
-deploy:
+deploy: clean
 	${RSYNC} -r --exclude='.git' htdocs deploy/
 #	${SFTP}
 	${SCP} -r -i ${IDENTITY_FILE} deploy/htdocs/* web.sourceforge.net:/home/project-web/arden2bytecode/htdocs/
