@@ -5,7 +5,7 @@
 <p>You may contact me via: 
 <ul>
 <li>GitHub: <a href="http://github.com/hflicka">http://github.com/hflicka</a></li>
-<li>E-Mail: <a class="mail" href="hvdgoj:c.agdxfv@op-wn.yz"></a></li>
+<li>E-Mail: <a class="mail" href="c.agdxfv@op-wn.yz"></a></li>
 </ul>
 </p>
 
@@ -16,8 +16,8 @@ $(function() {
 		addr = addr.replace(/[a-zA-Z]/g, function(c) {
 			return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 5)? c : c - 26);
 		});
-		$(element).attr('href', addr);
-		$(element).text(addr.replace('mailto:', ''));
+		$(element).attr('href', 'mailto:' + addr);
+		$(element).text(addr);
 	});
 });
 </script>
