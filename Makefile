@@ -20,6 +20,7 @@ clean:
 
 update-repo:
 	${GIT} pull
+	${GIT} submodule foreach ${GIT} pull origin master
 	
 deploy: clean
 	${RSYNC} -r --exclude='.git' htdocs deploy/
