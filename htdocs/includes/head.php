@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<title>arden2bytecode Arden Syntax Compiler</title>
+	<title>Arden2ByteCode Arden Syntax Compiler</title>
 	<link rel="stylesheet" href="/style.css" type="text/css" media="all">
 	<!--[if lt IE 7]>
     <style type="text/css">
@@ -17,7 +17,7 @@
 <body>
 <div id="container">
 	<div id="head">
-		<h1><a href="/"><span>arden2bytecode Arden Syntax Compiler</span></a></h1>
+		<h1><a href="/"><span>Arden2ByteCode Arden Syntax Compiler</span></a></h1>
 	<?php include "menu.php"; ?>
 	</div>
 	<div id="outermain">
