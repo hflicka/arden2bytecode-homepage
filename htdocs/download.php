@@ -1,6 +1,6 @@
 <?php include "includes/head.php"; ?>
 
-<h2>arden2bytecode Downloads</h2>
+<h2>Arden2ByteCode Downloads</h2>
 
 <h3>Binary Packages</h3>
 

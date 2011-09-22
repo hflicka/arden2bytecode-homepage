@@ -1,14 +1,14 @@
 <?php include "includes/head.php"; ?>
 
-<h2>arden2bytecode Source Code</h2>
+<h2>Arden2ByteCode Source Code</h2>
 
-<p>The source code of arden2bytecode is made freely available 
+<p>The source code of Arden2ByteCode is made freely available 
 under the terms of the GNU 
 <a href="http://www.gnu.org/copyleft/gpl.html">General Public License</a>.</p>
 
 <h3>View Source Code with Web Browser</h3>
 
-<p>The source code of arden2bytecode ist hosted at 
+<p>The source code of Arden2ByteCode ist hosted at 
 GitHub: <a href="http://github.com/hflicka/arden2bytecode">http://github.com/hflicka/arden2bytecode</a>
 </p>
 <p>
