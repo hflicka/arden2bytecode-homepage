@@ -10,8 +10,9 @@ environment for execution of the compiled bytecode.</p>
 <p>Arden2ByteCode was developed in collaboration between the 
 <a href="http://www.plri.de/index.php?id=Arden2ByteCode">Peter L. Reichertz Institute</a>
 for medical computer science and the 
-<a href="http://www.ips.cs.tu-bs.de/">Institute for Programming and Reactive Systems</a>. 
-Most programming was done by <a href="https://github.com/dgrunwald">Daniel Grunwald</a>.</p>
+<a href="http://www.ips.cs.tu-bs.de/">Institute for Programming and Reactive Systems</a>.
+</p> 
+<p>Most programming work was done in 2010 by <a href="https://github.com/dgrunwald">Daniel Grunwald</a>.</p>
 
 <p>People involved in Arden2ByteCode are:</p>
 <ul>
