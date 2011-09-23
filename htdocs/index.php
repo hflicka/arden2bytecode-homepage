@@ -13,7 +13,7 @@ for medical computer science and the
 <a href="http://www.ips.cs.tu-bs.de/">Institute for Programming and Reactive Systems</a>. 
 Most programming was done by <a href="https://github.com/dgrunwald">Daniel Grunwald</a>.</p>
 
-<p>People involved in Arden2ByteCode are:
+<p>People involved in Arden2ByteCode are:</p>
 <ul>
 <li><a href="http://www.plri.de/index.php?id=wolf">Dr.-Ing. Klaus-Hendrik Wolf</a></li>
 <li><a href="https://www.tu-braunschweig.de/ips/staff/goltz">Prof. Dr. Ursula Goltz</a></li>
@@ -24,7 +24,6 @@ Most programming was done by <a href="https://github.com/dgrunwald">Daniel Grunw
 <li><a href="http://www.plri.de/index.php?id=song">Bianying Song</a></li>
 <li><a href="https://github.com/hflicka">...and me, Hannes Flicka</a></li>
 </ul>
-</p>
 
 <h2>Getting Started</h2>
 

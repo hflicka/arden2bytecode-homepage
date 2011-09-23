@@ -9,6 +9,7 @@ for medical computer science and the
 <a href="http://www.ips.cs.tu-bs.de/">Institute for Programming and Reactive Systems</a>.
 <br>
 Therefore, you may contact any of the projects contributors via their respective profile pages. Refer to the following list:
+</p>
 <ul>
 <li><a href="http://www.plri.de/index.php?id=wolf">Dr.-Ing. Klaus-Hendrik Wolf</a></li>
 <li><a href="https://www.tu-braunschweig.de/ips/staff/goltz">Prof. Dr. Ursula Goltz</a></li>
@@ -18,14 +19,12 @@ Therefore, you may contact any of the projects contributors via their respective
 <li><a href="http://www.plri.de/index.php?id=gietzelt">Matthias Gietzelt</a></li>
 <li><a href="http://www.plri.de/index.php?id=song">Bianying Song</a></li>
 </ul>
-</p>
 
-<p>You may contact the author of this web site (Hannes Flicka) via: 
+<p>You may contact the author of this web site (Hannes Flicka) via:</p>
 <ul>
 <li>GitHub: <a href="http://github.com/hflicka">http://github.com/hflicka</a></li>
 <li>E-Mail: <a class="mail" href="c.agdxfv@op-wn.yz"></a></li>
 </ul>
-</p>
 
 <script type="text/javascript">
 $(function() {
