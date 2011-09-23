@@ -79,7 +79,7 @@
 <li>
   Song, B.; Wolf, K.-H.; Gietzelt, M.; Scharaa, O. A.; Tegtbur, U.; Haux, R. &amp; Marschollek, M.<br>
   <em>Decision support for teletraining of COPD patients</em>
-  <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5191193&tag=1">[PDF]</a><br>
+  <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5191193&amp;tag=1">[PDF]</a><br>
   Methods Inf Med, Bianying Song, Peter L. Reichertz Institute for Medical Informatics, 
   University of Braunschweig - Institute of Technology and Hannover Medical School, 
   M&uuml;hlenpfordtstrasse 23, 38106 Braunschweig, Germany, 2010, 49, 96-102
