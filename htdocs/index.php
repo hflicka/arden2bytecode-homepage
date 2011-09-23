@@ -19,7 +19,7 @@ for medical computer science and the
 <li><a href="http://www.plri.de/index.php?id=wolf">Dr.-Ing. Klaus-Hendrik Wolf</a></li>
 <li><a href="https://www.tu-braunschweig.de/ips/staff/goltz">Prof. Dr. Ursula Goltz</a></li>
 <li><a href="https://www.tu-braunschweig.de/ips/staff/lochau">Malte Lochau</a></li>
-<li><a href="https://github.com/dgrunwald">Daniel Grundwald</a></li>
+<li><a href="https://github.com/dgrunwald">Daniel Grunwald</a></li>
 <li><a href="http://www.plri.de/index.php?id=marschollek">Prof. Dr. med. Dr.-Ing. Michael Marschollek</a></li>
 <li><a href="http://www.plri.de/index.php?id=gietzelt">Matthias Gietzelt</a></li>
 <li><a href="http://www.plri.de/index.php?id=song">Bianying Song</a></li>
