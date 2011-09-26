@@ -1,9 +1,9 @@
 [submodule "htdocs/includes/php-markdown"]
 	path = htdocs/includes/php-markdown
-	url = git://github.com/wolfie/php-markdown.git
+	url = http://github.com/wolfie/php-markdown.git
 [submodule "htdocs/includes/textile"]
 	path = htdocs/includes/textile
-	url = git://github.com/netcarver/textile.git
+	url = http://github.com/netcarver/textile.git
 [submodule "htdocs/wiki-files"]
 	path = htdocs/wiki-files
-	url = git://github.com/hflicka/arden2bytecode.wiki.git
+	url = http://github.com/hflicka/arden2bytecode.wiki.git
