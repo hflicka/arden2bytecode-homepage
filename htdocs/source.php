@@ -6,6 +6,14 @@
 under the terms of the GNU 
 <a href="http://www.gnu.org/copyleft/gpl.html">General Public License</a>.</p>
 
+<h3>History</h3>
+
+<p>The programming work was initiated in 2010 by Daniel Grunwald as it can be seen on 
+<a href="http://github.com/dgrunwald/arden2bytecode">GitHub</a>.<br>
+Daniel did the major work, namely the bytecode compiler and runtime environment itself.<br>
+In 2010, I forked the repository and added a command line interface.
+Still, work has to be done until Arden2ByteCode is production ready.</p>
+
 <h3>View Source Code with Web Browser</h3>
 
 <p>The source code of Arden2ByteCode ist hosted at 

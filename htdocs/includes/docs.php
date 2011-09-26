@@ -88,7 +88,7 @@ function render_docs() {
 	} else {
 		echo render_file('home');
 		
-		echo "<hr /><h3>List of Wiki files</h3>\n";
+		echo "\n<hr>\n<h3>List of Wiki files</h3>\n";
 		echo render_file_list();
 	}
 }

@@ -8,5 +8,5 @@ include_once "includes/docs.php";
 ?>
 
 <?php
-include "../includes/foot.php";
+include "includes/foot.php";
 ?>
