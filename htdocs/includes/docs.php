@@ -65,7 +65,7 @@ function render_file($name) {
 	return $result;
 }
 
-function render_file_list() {
+function render_file_list($link_prefix = '') {
 	global $wiki_files, $wiki_files_canonical;
 	
 	$result = "<ul>\n";
@@ -73,7 +73,7 @@ function render_file_list() {
 	
 	foreach ($files as $idx => $file) {
 		$title = title_from_filename($file);
-		$html = "<a href=\"" . $wiki_files_canonical[$idx] . "\">" .
+		$html = "<a href=\"" . $link_prefix . $wiki_files_canonical[$idx] . "\">" .
 			$title . '</a>';
 		$result .= "<li>" . $html . "</li>\n";
 	}

@@ -6,7 +6,7 @@
 <li><a href="/download">Downloads</a></li>
 <li><a href="/docs/">Documentation</a>
 <?php 
-	render_file_list(); 
+	render_file_list("/docs/"); 
 ?>
 </li>
 <li><a href="/links">Links</a></li>
