@@ -61,6 +61,10 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0px 10px 0px 0px;
 }
 
+#head li > ul {
+	display: none;
+}
+
 #main {
     margin: 0px;
     padding: 10px 40px 80px 40px;
