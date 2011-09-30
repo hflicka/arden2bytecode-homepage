@@ -46,29 +46,33 @@ h1, h2, h3, h4, h5, h6 {
 	/*display: none;*/
 }
 
-#head ul {
+#head > ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 10px 0px 10px 0px;
 }
 
-#head ul li {
+#head > ul > li {
 	display: inline;
 }
 
-#head ul li a {
+#head > ul > li > a {
 	display: inline;
 	padding: 0px 10px 0px 0px;
 }
 
-#head li > ul {
+#head > ul > li > ul {
 	display: none;
 	position: absolute;
 	top: 1em;
 	left: 0px;
+	list-style-type: none;
+	margin: 0;
+	background-color: #fff;
+	border: solid 1px #ddd;
 }
 
-#head li:hover > ul {
+#head > ul > li:hover > ul {
 	display: block;
 }
 
