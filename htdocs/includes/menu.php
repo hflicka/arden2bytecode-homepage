@@ -1,5 +1,5 @@
 <?php
-	include_once "docs.php";
+	include_once "includes/docs.php";
 ?>
 <ul>
 <li><a href="/">About</a></li>
