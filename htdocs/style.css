@@ -54,6 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #head > ul > li {
 	display: inline;
+	position: relative;
 }
 
 #head > ul > li > a {
@@ -66,8 +67,11 @@ h1, h2, h3, h4, h5, h6 {
 	position: absolute;
 	top: 1em;
 	left: 0px;
+	
 	list-style-type: none;
 	margin: 0;
+	padding: 5px 5px 5px 5px;
+	
 	background-color: #fff;
 	border: solid 1px #ddd;
 }
