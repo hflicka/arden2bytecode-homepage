@@ -89,7 +89,7 @@ function render_docs() {
 		echo render_file('home');
 		
 		echo "\n<hr>\n<h3>List of Wiki files</h3>\n";
-		echo render_file_list();
+		render_file_list();
 	}
 }
 
