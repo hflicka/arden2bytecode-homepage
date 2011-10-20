@@ -2,7 +2,7 @@
 
 <h2>Contact the Arden2ByteCode Team</h2>
 
-<p><img src="https://www.tu-braunschweig.de/icons/tubsdesign/siegel_rot.jpg" alt="TU Braunschweig Logo" style="float: right; margin: 4px;" />
+<p><img src="https://www.tu-braunschweig.de/icons/tubsdesign/siegel_rot.jpg" alt="TU Braunschweig Logo" style="display: block; margin: 4px;" />
 Arden2ByteCode was created at the <a href="http://www.tu-braunschweig.de">Technische Universit&auml;t Braunschwieg</a> in
 cooperation between the 
 <a href="http://www.plri.de/Arden2ByteCode.html">Peter L. Reichertz Institute for Medical Informatics</a>
