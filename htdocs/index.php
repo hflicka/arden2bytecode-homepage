@@ -30,7 +30,7 @@ a binary package for your platform and read the wiki page
 <a href="http://arden2bytecode.sourceforge.net/docs/getting-started-with-arden2bytecode"
 >Getting started with arden2bytecode</a></p>
 
-<p>Do you have problems to get started or ideas how to improve Arden2ByteCode?<br>
+<p>Do you have problems to get started or ideas how to improve Arden2ByteCode?
 Then, <a href=contact">please contact us!</a><br>
 You might wish to submit your issues, ideas or proposals via the
 <a href="https://github.com/hflicka/arden2bytecode/issues/new">Arden2ByteCode issue tracker</a>.</p>
