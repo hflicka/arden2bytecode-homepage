@@ -1,0 +1,12 @@
+#!/bin/sh
+exec 2>&1
+echo "update script"
+cd /home/project-web/arden2bytecode/arden2bytecode-homepage
+pwd
+# /home/project-web/arden2bytecode/git/bin/git clone http://github.com/hflicka/arden2bytecode-homepage.git
+# /home/project-web/arden2bytecode/git/bin/git submodule update --init
+/home/project-web/arden2bytecode/git/bin/git pull
+/home/project-web/arden2bytecode/git/bin/git submodule foreach git pull origin master
+rsync -r --exclude='.git' /home/project-web/arden2bytecode/arden2bytecode-homepage/htdocs /home/project-web/arden2bytecode/
+echo "done"
+
