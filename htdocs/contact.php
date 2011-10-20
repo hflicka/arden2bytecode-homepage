@@ -2,28 +2,24 @@
 
 <h2>Contact the Arden2ByteCode Team</h2>
 
-<p>As said on the <a href="/">about</a> page, Arden2ByteCode was created in
+<p><img src="https://www.tu-braunschweig.de/icons/tubsdesign/siegel_rot.jpg" align="left" />Arden2ByteCode was created at the <a href="http://www.tu-braunschweig.de">Technische Universit&auml;t Braunschwieg</a> in
 cooperation between the 
-<a href="http://www.plri.de/index.php?id=Arden2ByteCode">Peter L. Reichertz Institute</a>
-for medical computer science and the 
-<a href="http://www.ips.cs.tu-bs.de/">Institute for Programming and Reactive Systems</a>.
-<br>
-Therefore, you may contact any of the projects contributors via their respective profile pages. Refer to the following list:
+<a href="http://www.plri.de/Arden2ByteCode.html">Peter L. Reichertz Institute for Medical Informatics</a>
+and the 
+<a href="http://www.ips.cs.tu-bs.de/">Institute for Programming and Reactive Systems</a>.</p>
+<p>Please refer to the following list (in alphabetical order).<br>
+You may contact any of the projects contributors via their respective profile pages. :
 </p>
 <ul>
-<li><a href="http://www.plri.de/index.php?id=wolf">Dr.-Ing. Klaus-Hendrik Wolf</a></li>
-<li><a href="https://www.tu-braunschweig.de/ips/staff/goltz">Prof. Dr. Ursula Goltz</a></li>
-<li><a href="https://www.tu-braunschweig.de/ips/staff/lochau">Malte Lochau</a></li>
-<li><a href="https://github.com/dgrunwald">Daniel Grunwald</a></li>
-<li><a href="http://www.plri.de/index.php?id=marschollek">Prof. Dr. med. Dr.-Ing. Michael Marschollek</a></li>
+<li><a href="http://github.com/hflicka">Hannes Flicka</a> (E-Mail: <a class="mail" href="c.agdxfv@op-wn.yz"></a>)</li>
 <li><a href="http://www.plri.de/index.php?id=gietzelt">Matthias Gietzelt</a></li>
+<li><a href="https://www.tu-braunschweig.de/ips/staff/goltz">Prof. Dr. Ursula Goltz</a></li>
+<li><a href="https://github.com/dgrunwald">Daniel Grunwald</a></li>
+<li><a href="http://www.plri.de/mitarbeiter/haux.html">Prof. Dr. Reinhold Haux</a></li>
+<li><a href="https://www.tu-braunschweig.de/ips/staff/lochau">Malte Lochau</a></li>
+<li><a href="http://www.plri.de/index.php?id=marschollek">Prof. Dr. Dr. Michael Marschollek</a></li>
 <li><a href="http://www.plri.de/index.php?id=song">Bianying Song</a></li>
-</ul>
-
-<p>You may contact the author of this web site (Hannes Flicka) via:</p>
-<ul>
-<li>GitHub: <a href="http://github.com/hflicka">http://github.com/hflicka</a></li>
-<li>E-Mail: <a class="mail" href="c.agdxfv@op-wn.yz"></a></li>
+<li><a href="http://www.plri.de/mitarbeiter/wolf.html">Dr. Klaus-Hendrik Wolf</a></li>
 </ul>
 
 <script type="text/javascript">
