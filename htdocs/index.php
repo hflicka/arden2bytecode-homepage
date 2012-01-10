@@ -24,7 +24,7 @@ and the
 
 <h2>Arden2ByteCode Paper</h2>
 
-<p>Recently a paper presenting Arden2ByteCode was published.</p>
+<p>Recently a paper presenting Arden2ByteCode and its usage in an OSGi-based infrastructure was published:</p>
 <p><strong>Arden2ByteCode: A one-pass Arden Syntax compiler 
 for service-oriented decision support systems based on the 
 OSGi platform,</strong><br>
