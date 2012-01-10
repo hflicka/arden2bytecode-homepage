@@ -22,6 +22,30 @@ and the
 </p> 
 <p>Most programming work was done in 2010 by <a href="https://github.com/dgrunwald">Daniel Grunwald</a>.</p>
 
+<h2>Arden2ByteCode Paper</h2>
+
+<p>Recently a paper presenting Arden2ByteCode was published.</p>
+<p><strong>Arden2ByteCode: A one-pass Arden Syntax compiler 
+for service-oriented decision support systems based on the 
+OSGi platform,</strong><br>
+Computer Methods and Programs in Biomedicine,
+ISSN 0169-2607</p>
+
+<p>It is written by:</p>
+<ul>
+<li>Matthias Gietzelt</li>
+<li>Ursula Goltz</li>
+<li>Daniel Grunwald</li>
+<li>Malte Lochau</li>
+<li>Michael Marschollek</li>
+<li>Bianying Song</li>
+<li>Klaus-Hendrik Wolf</li>
+</ul>
+
+<p>
+The paper is available via the following link: <a href="http://dx.doi.org/10.1016/j.cmpb.2011.11.003">http://dx.doi.org/10.1016/j.cmpb.2011.11.003</a>
+</p>
+
 <h2>Getting Started</h2>
 
 <p>If you want to get started quickly, 
