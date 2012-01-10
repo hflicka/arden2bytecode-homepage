@@ -1,4 +1,4 @@
-﻿<?php include "includes/head.php"; ?>
+<?php include "includes/head.php"; ?>
 
 <h2>Links and References</h2>
 
