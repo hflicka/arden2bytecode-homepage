@@ -9,7 +9,7 @@
 <li><a href="http://www.hl7.org/special/Committees/arden/index.cfm">HL7 Arden Syntax workgroup</a></li>
 </ul>
 
-<h3>Referenced Work</h3>
+<h3>Work related to Arden2ByteCode</h3>
 
 <ul>
 <!--
@@ -19,6 +19,19 @@
   
 </li> 
 -->
+<li>
+  Gietzelt, M.; Goltz, U.; Grunwald, D.; Lochau, M.; Marschollek, M.;
+  Song, B. &amp; Wolf, K. H.<br>
+  <em>Arden2ByteCode: A one-pass Arden Syntax compiler 
+  for service-oriented decision support systems based on the 
+  OSGi platform</em>
+  <a href="http://www.sciencedirect.com/science/article/pii/S0169260711003087">[PDF]</a><br>
+  Comput Methods Programs Biomed, 
+  Peter L. Reichertz Institute for Medical Informatics, 
+  University of Braunschweig - Institute of Technology and Hannover Medical School, 
+  Institute for Programming and Reactive Systems,
+  M&uuml;hlenpfordtstrasse 23, 38106 Braunschweig, Germany
+</li>
 <li>
   Gao, X.; Johansson, B.; Shahsavar, N.; Arkad, K.; Ahlfeldt, H. &amp; Wigertz, O.<br>
   <em>Pre-compiling medical logic modules into C++ in building medical decision support systems</em>
