@@ -24,27 +24,15 @@ and the
 
 <h2>Arden2ByteCode Paper</h2>
 
-<p>Recently a paper presenting Arden2ByteCode and its usage in an OSGi-based infrastructure was published:</p>
-<p><strong>Arden2ByteCode: A one-pass Arden Syntax compiler 
-for service-oriented decision support systems based on the 
-OSGi platform,</strong><br>
-Computer Methods and Programs in Biomedicine,
-ISSN 0169-2607</p>
-
-<p>It is written by:</p>
-<ul>
-<li>Matthias Gietzelt</li>
-<li>Ursula Goltz</li>
-<li>Daniel Grunwald</li>
-<li>Malte Lochau</li>
-<li>Michael Marschollek</li>
-<li>Bianying Song</li>
-<li>Klaus-Hendrik Wolf</li>
-</ul>
-
+<p>To cite Arden2ByteCode in publications, use:</p>
 <p>
-The paper is available via the following link: <a href="http://dx.doi.org/10.1016/j.cmpb.2011.11.003">http://dx.doi.org/10.1016/j.cmpb.2011.11.003</a>
-</p>
+Gietzelt M, Goltz U, Grunwald D, Lochau M, Marschollek M, Song B, Wolf KH.<br>
+<strong>Arden2ByteCode: A one-pass Arden Syntax compiler 
+for service-oriented decision support systems based on the 
+OSGi platform.</strong><br>
+Comput Methods Programs Biomed. 2011 Dec 27. [Epub ahead of print]<br>
+PMID: 22206864 
+DOI: <a href="http://dx.doi.org/10.1016/j.cmpb.2011.11.003">10.1016/j.cmpb.2011.11.003</a></p>
 
 <h2>Getting Started</h2>
 
