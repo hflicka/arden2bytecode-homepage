@@ -34,6 +34,8 @@ Comput Methods Programs Biomed. 2011 Dec 27. [Epub ahead of print]<br>
 PMID: 22206864 
 DOI: <a href="http://dx.doi.org/10.1016/j.cmpb.2011.11.003">10.1016/j.cmpb.2011.11.003</a></p>
 
+<p>A BibTeX file is available <a href="/downloads/arden2bytecode.bib">here</a>.</p>
+
 <h2>Getting Started</h2>
 
 <p>If you want to get started quickly, 
