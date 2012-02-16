@@ -7,3 +7,6 @@
 [submodule "htdocs/wiki-files"]
 	path = htdocs/wiki-files
 	url = http://github.com/hflicka/arden2bytecode.wiki.git
+[submodule "htdocs/eclipse"]
+	path = htdocs/eclipse
+	url = http://github.com/hflicka/ardensyntax-eclipse-plugin-update-site.git
