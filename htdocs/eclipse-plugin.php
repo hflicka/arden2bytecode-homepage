@@ -22,7 +22,9 @@ for Java Developers at
 <a href="http://www.eclipse.org/downloads/">http://www.eclipse.org/downloads/</a>.</li>
 <li>Go to <b>Help -> Install new Software...</b> in the Eclipse menu.</li>
 <li>Add <a href="http://arden2bytecode.sf.net/eclipse/update/">http://arden2bytecode.sf.net/eclipse/update/</a> as a Software Site.<br>
-The name you enter for that site does not matter.</li>
+The name you enter for that site does not matter.<br>
+Note that the loading of the Software Site content may take a 
+while as the Eclipse servers are slow. During this time, you will see a "Pending..." notice.</li>
 <li>Mark the "Arden Syntax Tools" to be installed. Click next.</li>
 <li>Follow the installation procedure.</li>
 <li>Once the Arden Syntax Editor is installed, Eclipse will prompt you if you 
