@@ -14,7 +14,7 @@
 
 <p>As of February 2012 this is the only way of installing the plugin.</p>
 
-<p>To install, follow these steps:
+<p>To install, follow these steps:</p>
 <ol>
 <li>Start a recent version of the Eclipse IDE.<br>
 If you don't have Eclipse yet, you may download the Eclipse IDE 
@@ -35,6 +35,5 @@ want to add the xText Nature to your project when opening or creating an MLM (*.
 Choose "yes" to activate the Arden Syntax Editor.</li>
 <li>You should now see the Syntax of <code>.mlm</code> files in that project being highlighted.</li>
 </ol>
-</p>
 
 <?php include "includes/foot.php"; ?>
