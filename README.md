@@ -36,6 +36,7 @@ To deploy this website on the Sourceforge webspace, I
 first compiled a recent version of Git having submodule
 support using:
 
+    $ cd ~
     $ wget http://git-core.googlecode.com/files/git-<version>.tar.gz
     $ tar -xzf git-<version>.tar.gz
     $ cd git-<version>
