@@ -19,10 +19,10 @@ Finally, the update site for the Eclipse Arden Syntax
 Editor feature is imported as a submodule.  
 Here is a list of the relative path/URL pairs:
 
-* htdocs/includes/php-markdown -> http://github.com/wolfie/php-markdown.git
-* htdocs/includes/textile -> http://github.com/netcarver/textile.git
-* htdocs/wiki-files -> http://github.com/hflicka/arden2bytecode.wiki.git
-* htdocs/eclipse -> http://github.com/hflicka/ardensyntax-eclipse-plugin-update-site.git
+* htdocs/includes/php-markdown -> <http://github.com/wolfie/php-markdown.git>
+* htdocs/includes/textile -> <http://github.com/netcarver/textile.git>
+* htdocs/wiki-files -> <http://github.com/hflicka/arden2bytecode.wiki.git>
+* htdocs/eclipse -> <http://github.com/hflicka/ardensyntax-eclipse-plugin-update-site.git>
 
 ## Update Workflow
 
