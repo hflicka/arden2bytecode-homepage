@@ -74,4 +74,8 @@ wipe out old files:
 
 The above steps except for building Git are aggregated
 in the update script in the root of this Git 
-repository.
+repository.  
+For your convenience, you may create an alias 
+pointing to 
+`/home/project-web/arden2bytecode/arden2bytecode-homepage/update`
+in your `.bash_profile`.
