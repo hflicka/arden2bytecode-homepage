@@ -26,29 +26,40 @@ Here is a list of the relative path/URL pairs:
 
 ## Update Workflow
 
+I issued all of the below commands via the Sourceforge
+SSH shell service. You must be member of the
+Arden2ByteCode Sourceforge project to be able to
+read and write to the directory 
+`/home/project-web/arden2bytecode/`.
+
 To deploy this website on the Sourceforge webspace, I
 first compiled a recent version of Git having submodule
 support using:
+
     $ wget http://git-core.googlecode.com/files/git-<version>.tar.gz
     $ tar -xzf git-<version>.tar.gz
     $ cd git-<version>
     $ make prefix=/home/project-web/arden2bytecode/git
     $ make prefix=/home/project-web/arden2bytecode/git install
+
 However, if the preinstalled Git supports submodules, 
 it is not necessary to compile Git.
 
 If this website repository has not been cloned yet, I 
 do so by using:
+
     $ cd /home/project-web/arden2bytecode
     $ <git-binary> clone http://github.com/hflicka/arden2bytecode-homepage.git
     $ cd arden2bytecode-homepage
     $ <git-binary> submodule update --init
+
 These commands also initialize the submodules.  
 Also, these commands are included in the update script
 of this website but are commented out.
 
 To update to a recent version of the repository and
 all submodules, I use:
+
     $ <git-binary> pull
     $ <git-binary> submodule foreach <git-binary> pull origin master
 
@@ -56,6 +67,7 @@ Finally the website has to be copied to the htdocs
 directory but all .git subdirectories should be 
 omitted. Also I clean the target directory first to
 wipe out old files:
+
     $ rm -rf /home/project-web/arden2bytecode/htdocs
     $ rsync -r --exclude='.git' /home/project-web/arden2bytecode/arden2bytecode-homepage/htdocs /home/project-web/arden2bytecode/
 
