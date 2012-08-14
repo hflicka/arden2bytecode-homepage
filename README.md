@@ -12,7 +12,9 @@ information about the project, associated downloads and
 source code repositories as well as responsible people.
 
 The website repository has some submodules in order to 
-include the documentation wiki files of Arden2ByteCode.
+include the recent GitHub 
+[documentation wiki files](https://github.com/hflicka/arden2bytecode/wiki) 
+of Arden2ByteCode.
 Also, to format these wiki files as HTML, a Markdown
 parser and a Textile parser are imported.  
 Finally, the update site for the Eclipse Arden Syntax
