@@ -1,5 +1,6 @@
 <?php include "includes/head.php"; ?>
 
+<div id="devdocs">
 <h1>Arden2ByteCode Developer Documentation</h1>
 
 <p>This file is a collection of the various 
@@ -13,5 +14,6 @@ Arden2ByteCode GitHub repositories</p>
 	    include($devdocs);
 	}
 ?>
+</div>
 
 <?php include "includes/foot.php"; ?>
