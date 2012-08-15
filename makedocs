@@ -3,9 +3,9 @@
 # this script generates developer documentation from all README.md files in the git repositories cloned below
 
 TMPDIR=$(mktemp -d)
-OUTPUT=$TMPDIR/../developerdocs.html
+OUTPUT=developerdocs.html
 
-cd $TMPDIR
+pushd $TMPDIR
 
 # get all arden2bytecode repos
 git clone https://github.com/hflicka/example-mlms.git
@@ -20,10 +20,11 @@ cd sundown
 make
 cd ..
 
-# concatenate all markdown files and add headings
-find . -name README.md -and -not -name sundown -exec echo \<hr\>\<h1\>NAME:{}\</h1\> \; -exec ./sundown/sundown {} \; | sed 's|NAME:./||' > $OUTPUT
+popd
 
-cd ..
+# concatenate all markdown files and add headings
+find $TMPDIR -name README.md -and -not -name sundown -exec echo \<hr\>\<h1\>NAME:{}\</h1\> \; -exec ./sundown/sundown {} \; | sed "s|NAME:$TMPDIR/||" > $OUTPUT
+
 rm -rf $TMPDIR
 
 echo "done. docs are in $OUTPUT"
