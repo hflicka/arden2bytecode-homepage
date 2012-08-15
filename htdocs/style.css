@@ -152,7 +152,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 1.08em;
 }
 
-#devdocs.mdname {
+#devdocs .mdname {
 	font-style: normal;
 	font-family: monospace;
 }

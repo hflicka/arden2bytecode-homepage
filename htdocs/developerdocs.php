@@ -12,6 +12,8 @@ Arden2ByteCode GitHub repositories</p>
     $devdocs = "includes/developerdocs.html";
     if (is_file($devdocs)) {
 	    include($devdocs);
+	} else {
+	    echo "<p>No developer documentation found. Generate with <code>makedocs</code> script.</p>";
 	}
 ?>
 </div>
