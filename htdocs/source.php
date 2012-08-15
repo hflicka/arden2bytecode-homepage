@@ -6,6 +6,14 @@
 under the terms of the GNU 
 <a href="http://www.gnu.org/copyleft/gpl.html">General Public License</a>.</p>
 
+<h3>Developer Documentation</h3>
+
+<p>The documentation for developers is contained in the 
+source code itself and in various README.md <a href="http://en.wikipedia.org/wiki/Markdown">Markdown</a>
+files in the according GitHub repositories.</p>
+<p>The Markdown documentation is available in gathered form 
+<a href="/developerdocs">on this website</a>.</p>
+
 <h3>History</h3>
 
 <p>The programming work was initiated in 2010 by Daniel Grunwald as it can be seen on 
