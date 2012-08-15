@@ -27,6 +27,11 @@ echo "using git binary in $(which git)"
 git pull
 git submodule foreach git pull origin master
 
+# generate developer documentation, see makedocs script for more information
+if [ -x $REPO/makedocs ]; then
+    $REPO/makedocs $REPO/htdocs/includes/developerdocs.html
+fi
+
 # copy files to htdocs but exclude all .git directories
 rm -rf $TARGET_HTDOCS
 rsync -r --exclude='.git' $REPO/htdocs $PROJECT_WEB/
