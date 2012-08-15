@@ -21,7 +21,7 @@ make
 cd ..
 
 # concatenate all markdown files and add headings
-find . -name README.md -name sundown -prune -exec echo \<hr\>\<h1\>NAME:{}\</h1\> \; -exec ./sundown/sundown {} \; | sed 's|NAME:./||' > $OUTPUT
+find . -name README.md -and-not -name sundown -exec echo \<hr\>\<h1\>NAME:{}\</h1\> \; -exec ./sundown/sundown {} \; | sed 's|NAME:./||' > $OUTPUT
 
 cd ..
 rm -rf $TMPDIR
