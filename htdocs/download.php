@@ -24,7 +24,7 @@ $(function() {
 				'<li><a href="' + value.html_url
 				+ '">' + value.name 
 				+ '</a> - ' + value.description + '</li>');
-		}
+		});
 	});
 });
 </script>
