@@ -172,5 +172,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #includes div {
-	margin-left: 16px;
+	margin: 10px 0px 2px 0px;
+	
+	border: 1px solid #ddd;
+	padding: 6px 10px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
 }
