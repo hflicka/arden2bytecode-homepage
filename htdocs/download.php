@@ -14,11 +14,11 @@
 
 <script type="text/javascript">
 $(function() {
-	$('#downloads').empty();
     $.ajax({
 		url: 'https://api.github.com/repos/hflicka/arden2bytecode/downloads',
 		dataType: 'jsonp'
 	}).done(function(result) {
+		$('#downloads').empty();
 		$.each(result.data, function(index, value) {
 			$('#downloads').append(
 				'<li><a href="' + value.html_url
