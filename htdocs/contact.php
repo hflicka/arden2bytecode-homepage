@@ -12,7 +12,7 @@ and the
 You may contact any of the projects contributors via their respective profile pages. :
 </p>
 <ul>
-<li><a href="http://github.com/hflicka">Hannes Flicka</a> (E-Mail: <a class="mail" href="c.agdxfv@op-wn.yz"></a>)</li>
+<li><a href="http://github.com/hflicka">Hannes Flicka</a> (E-Mail: <a class="mail" href="vmyzi2wtozxjyz@bhvdg.xjh"></a>)</li>
 <li><a href="http://www.plri.de/index.php?id=gietzelt">Matthias Gietzelt</a></li>
 <li><a href="https://www.tu-braunschweig.de/ips/staff/goltz">Prof. Dr. Ursula Goltz</a></li>
 <li><a href="https://github.com/dgrunwald">Daniel Grunwald</a></li>
