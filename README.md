@@ -1,8 +1,10 @@
-# Website for the arden2bytecode project.
+Website for the Arden2ByteCode project
+======================================
 
 Accessible here: <http://arden2bytecode.sf.net>
 
-## Overview
+Overview
+--------
 
 This repository contains the website for Arden2ByteCode,
 an Arden Syntax to Java Bytecode compiler available at
@@ -26,7 +28,9 @@ Here is a list of the relative path/URL pairs:
 * htdocs/wiki-files -> <http://github.com/hflicka/arden2bytecode.wiki.git>
 * htdocs/eclipse -> <http://github.com/hflicka/ardensyntax-eclipse-plugin-update-site.git>
 
-## Update Workflow
+
+Update Workflow
+---------------
 
 I issued all of the below commands via the Sourceforge
 SSH shell service. You must be member of the
