@@ -28,7 +28,7 @@ cd ..
 popd
 
 # concatenate all markdown files and add headings
-find $TMPDIR -name README.md -and -not -name sundown -exec echo \<hr\>\<h1 class=\"mdname\"\>NAME:{}\</h1\>\<div class=\"doc\"\> \; -exec $TMPDIR/sundown/sundown {} \; -exec echo \</div\> | sed "s|NAME:$TMPDIR/||" > $OUTPUT
+find $TMPDIR -name README.md -and -not -name sundown -exec echo \<hr\>\<h1 class=\"mdname\"\>NAME:{}\</h1\>\<div class=\"doc\"\> \; -exec $TMPDIR/sundown/sundown {} \; -exec echo \</div\> \; | sed "s|NAME:$TMPDIR/||" > $OUTPUT
 
 rm -rf $TMPDIR
 
