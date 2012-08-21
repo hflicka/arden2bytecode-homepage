@@ -10,15 +10,21 @@
 
 <p>Here is a (JavaScripted) Mirror of that listing:</p>
 
-<div id="downloads"></div>
+<ul id="downloads"></ul>
 
 <script type="text/javascript">
 $(function() {
+	$('#downloads').empty();
     $.ajax({
 		url: 'https://api.github.com/repos/hflicka/arden2bytecode/downloads',
 		dataType: 'jsonp'
-	}).done(function(data) {
-		$('#downloads').text(data);
+	}).done(function(result) {
+		$.each(result.data, function(index, value) {
+			$('#downloads').append(
+				'<li><a href="' + value.html_url
+				+ '">' + value.name 
+				+ '</a> - ' + value.description + '</li>');
+		}
 	});
 });
 </script>
