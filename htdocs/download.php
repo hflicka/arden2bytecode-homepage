@@ -8,11 +8,20 @@
 <a href="https://github.com/hflicka/arden2bytecode/archives/master">downloads listing</a>
 </p>
 
-<p>Binary package from 10/19/2011:</p>
-<ul>
-<li>As <a href="https://github.com/downloads/hflicka/arden2bytecode/arden2bytecode%20-%20binary%20release%202011-10-19.zip">.zip</a> (Windows)</li>
-<li>As <a href="https://github.com/downloads/hflicka/arden2bytecode/arden2bytecode%20-%20binary%20release%202011-10-19.tar.gz">.tar.gz</a> (Linux, MacOS)</li>
-</ul>
+<p>Here is a (JavaScripted) Mirror of that listing:</p>
+
+<div id="downloads"></div>
+
+<script type="text/javascript">
+$(function() {
+    $.ajax({
+		url: 'https://api.github.com/repos/hflicka/arden2bytecode/downloads',
+		dataType: 'jsonp'
+	}).done(function(data) {
+		$('#downloads').text(data);
+	});
+});
+</script>
 
 <h3>Source Packages</h3>
 
