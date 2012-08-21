@@ -8,9 +8,9 @@
 <a href="https://github.com/hflicka/arden2bytecode/archives/master">downloads listing</a>
 </p>
 
-<p>Here is a (JavaScripted) Mirror of that listing:</p>
+<p>Here is a mirror of that listing:</p>
 
-<ul id="downloads"></ul>
+<ul id="downloads"><li style="list-style-type: none;">Loading (requires JavaScript)...</li></ul>
 
 <script type="text/javascript">
 $(function() {
