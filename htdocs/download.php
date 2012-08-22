@@ -12,7 +12,7 @@
 
 <ul id="downloads"><li style="list-style-type: none;">Loading (requires JavaScript)...</li></ul>
 
-<script type="text/javascript">
+<script type="text/javascript">//<![CDATA[
 $(function() {
     $.ajax({
 		url: 'https://api.github.com/repos/hflicka/arden2bytecode/downloads',
@@ -27,6 +27,7 @@ $(function() {
 		});
 	});
 });
+//]]>
 </script>
 
 <h3>Source Packages</h3>

@@ -10,13 +10,14 @@
 
 <ul id="issues"><li style="list-style-type: none;">Loading (requires JavaScript)...</li></ul>
 
-<script type="text/javascript">
+<script type="text/javascript">//<![CDATA[
 $('head').append($('<script />', {
   src: 'github-flavored-markdown.js',
   type: 'text/javascript'
 }));
+//]]>
 </script>
-<script type="text/javascript">
+<script type="text/javascript">//<![CDATA[
 $(function() {
     var converter = new Showdown.converter();
     $.ajax({
@@ -35,6 +36,7 @@ $(function() {
 		});
 	});
 });
+//]]>
 </script>
 
 <?php include "includes/foot.php"; ?>
