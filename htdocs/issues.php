@@ -25,7 +25,7 @@ $(function() {
 	}).done(function(result) {
 		$('#issues').empty();
 		$.each(result.data, function(index, issue) {
-			$('#downloads').append(
+			$('#issues').append(
 				'<li><span class="issuetitle"><a>href="' + issue.html_url
 				+ '">' + issue.title 
 				+ '</a> (' + issue.state + ')</span>' 
