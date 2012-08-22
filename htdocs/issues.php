@@ -10,9 +10,9 @@
 
 <ul id="arden2bytecode" class="issues"><li style="list-style-type: none;">Loading (requires JavaScript)...</li></ul>
 
-<h3>Issues of the <a href="https://github.com/hflicka/ardensyntax-eclipse-plugin">Arden Syntx Eclipse plugin</a> at GitHub</h3>
+<h3>Issues of the <a href="https://github.com/hflicka/ardensyntax-eclipse-plugin">Arden Syntax Eclipse plugin</a> at GitHub</h3>
 
-<ul id="arden2bytecode" class="issues"><li style="list-style-type: none;">Loading (requires JavaScript)...</li></ul>
+<ul id="eclipseplugin" class="issues"><li style="list-style-type: none;">Loading (requires JavaScript)...</li></ul>
 
 <script type="text/javascript">//<![CDATA[
 $('head').append($('<script />', {
