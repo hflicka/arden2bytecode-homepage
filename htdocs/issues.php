@@ -24,11 +24,18 @@ $('head').append($('<script />', {
 <script type="text/javascript">//<![CDATA[
 
 var converter = new Showdown.converter();
-	
+
+function escapeHtml(str) {   
+	return (str + '')
+		.replace(/&/g,'&amp;')
+		.replace(/</g,'&lt;')
+		.replace(/>/g,'&gt;');
+}
+
 function formatIssue(issue) {
 	return '<li class="issue"><span class="issuetitle">'
 				+ '<a href="' + issue.html_url
-				+ '">' + issue.title 
+				+ '">' + escapeHtml(issue.title)
 				+ '</a>'
 				+ '<span class="issueowner"> - posted by: <a href="' + issue.user.url + '">' 
 				+ issue.user.login + '</a></span></span>' 
