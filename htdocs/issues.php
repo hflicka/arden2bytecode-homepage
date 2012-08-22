@@ -26,7 +26,7 @@ $(function() {
 		$('#issues').empty();
 		$.each(result.data, function(index, issue) {
 			$('#issues').append(
-				'<li><span class="issuetitle"><a>href="' + issue.html_url
+				'<li><span class="issuetitle"><a href="' + issue.html_url
 				+ '">' + issue.title 
 				+ '</a> (' + issue.state + ')</span>' 
 				+ '<div class="issuebody">' + converter.makeHtml(issue.body) + '</div></li>');
