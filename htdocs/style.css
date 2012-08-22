@@ -202,3 +202,13 @@ h1, h2, h3, h4, h5, h6 {
 span.issuetitle {
 	font-weight: bold;
 }
+
+span.issueowner {
+	font-weight: normal;
+	color: #888;
+}
+
+span.issueowner > a {
+	color: #88f;
+}
+
