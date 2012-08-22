@@ -7,11 +7,11 @@
 >https://github.com/hflicka/arden2bytecode/issues/new</a>.</p>
 
 <h3>Open issues of <a href="https://github.com/hflicka/arden2bytecode">Arden2ByteCode</a> at GitHub</h3>
-
 <ul id="arden2bytecode" class="issues"><li style="list-style-type: none;">Loading (requires JavaScript)...</li></ul>
 
-<h3>Open issues of the <a href="https://github.com/hflicka/ardensyntax-eclipse-plugin">Arden Syntax Eclipse plugin</a> at GitHub</h3>
+<hr>
 
+<h3>Open issues of the <a href="https://github.com/hflicka/ardensyntax-eclipse-plugin">Arden Syntax Eclipse plugin</a> at GitHub</h3>
 <ul id="eclipseplugin" class="issues"><li style="list-style-type: none;">Loading (requires JavaScript)...</li></ul>
 
 <script type="text/javascript">//<![CDATA[
