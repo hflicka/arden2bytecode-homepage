@@ -6,11 +6,11 @@
 <a href="https://github.com/hflicka/arden2bytecode/issues/new"
 >https://github.com/hflicka/arden2bytecode/issues/new</a>.</p>
 
-<h3>Issues of <a href="https://github.com/hflicka/arden2bytecode">Arden2ByteCode</a> at GitHub</h3>
+<h3>Open issues of <a href="https://github.com/hflicka/arden2bytecode">Arden2ByteCode</a> at GitHub</h3>
 
 <ul id="arden2bytecode" class="issues"><li style="list-style-type: none;">Loading (requires JavaScript)...</li></ul>
 
-<h3>Issues of the <a href="https://github.com/hflicka/ardensyntax-eclipse-plugin">Arden Syntax Eclipse plugin</a> at GitHub</h3>
+<h3>Open issues of the <a href="https://github.com/hflicka/ardensyntax-eclipse-plugin">Arden Syntax Eclipse plugin</a> at GitHub</h3>
 
 <ul id="eclipseplugin" class="issues"><li style="list-style-type: none;">Loading (requires JavaScript)...</li></ul>
 
@@ -26,33 +26,38 @@ $('head').append($('<script />', {
 var converter = new Showdown.converter();
 	
 function formatIssue(issue) {
-	return '<li class="issue"><span class="issuetitle"><a href="' + issue.html_url
+	return '<li class="issue"><span class="issuetitle">'
+				+ '<a href="' + issue.html_url
 				+ '">' + issue.title 
-				+ '</a> (' + issue.state + ') '
+				+ '</a>'
 				+ '<span class="issueowner"> - posted by: <a href="' + issue.user.url + '">' 
 				+ issue.user.login + '</a></span></span>' 
 				+ '<div class="issuebody">' + converter.makeHtml(issue.body) + '</div></li>';
 }
 
-$(function() {
+function queryIssues(issuesurl, divselector, clear=true) {	
     $.ajax({
-		url: 'https://api.github.com/repos/hflicka/arden2bytecode/issues',
+		url: issuesurl,
 		dataType: 'jsonp'
 	}).done(function(result) {
-		$('#arden2bytecode').empty();
+		if (clear) {
+			$(divselector).empty();
+		}
 		$.each(result.data, function(index, issue) {
-			$('#arden2bytecode').append(formatIssue(issue));
+			$(divselector).append(formatIssue(issue));
 		});
+		if (result.meta.link) {
+			next = result.meta.link.filter(function(obj){return obj[1]['rel']==="next";});
+			if (next.length) {
+				queryIssues(next[0][0].replace(/callback=\w*&/, ''), divselector, false);
+			}
+		}
 	});
-	$.ajax({
-		url: 'https://api.github.com/repos/hflicka/ardensyntax-eclipse-plugin/issues',
-		dataType: 'jsonp'
-	}).done(function(result) {
-		$('#eclipseplugin').empty();
-		$.each(result.data, function(index, issue) {
-			$('#eclipseplugin').append(formatIssue(issue));
-		});
-	});
+}
+
+$(function() {
+	queryIssues('https://api.github.com/repos/hflicka/ardensyntax-eclipse-plugin/issues', '#eclipseplugin');
+	queryIssues('https://api.github.com/repos/hflicka/ardensyntax-eclipse-plugin/issues', '#eclipseplugin');	
 });
 //]]>
 </script>
