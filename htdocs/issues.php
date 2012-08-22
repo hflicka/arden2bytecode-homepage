@@ -6,7 +6,7 @@
 <a href="https://github.com/hflicka/arden2bytecode/issues/new"
 >https://github.com/hflicka/arden2bytecode/issues/new</a>.</p>
 
-<p>Currently active issues are:</p>
+<p>Issues of Arden2ByteCode at GitHub are:</p>
 
 <ul id="issues"><li style="list-style-type: none;">Loading (requires JavaScript)...</li></ul>
 
@@ -28,7 +28,9 @@ $(function() {
 			$('#issues').append(
 				'<li><span class="issuetitle"><a href="' + issue.html_url
 				+ '">' + issue.title 
-				+ '</a> (' + issue.state + ')</span>' 
+				+ '</a> (' + issue.state + ') '
+				+ '<span class="issueowner"> - posted by: <a href="' + issue.user.url + '">' 
+				+ issue.user.login + '</a></span></span>' 
 				+ '<div class="issuebody">' + converter.makeHtml(issue.body) + '</div></li>');
 		});
 	});
