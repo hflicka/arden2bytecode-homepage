@@ -47,8 +47,8 @@ function queryIssues(issuesurl, divselector, clear) {
 		$.each(result.data, function(index, issue) {
 			$(divselector).append(formatIssue(issue));
 		});
-		if (result.meta.link) {
-			next = result.meta.link.filter(function(obj){return obj[1]['rel']==="next";});
+		if (result.meta.Link) {
+			next = result.meta.Link.filter(function(obj){return obj[1]['rel']==="next";});
 			if (next.length) {
 				queryIssues(next[0][0].replace(/callback=\w*&/, ''), divselector, false);
 			}
@@ -57,7 +57,7 @@ function queryIssues(issuesurl, divselector, clear) {
 }
 
 $(function() {
-	queryIssues('https://api.github.com/repos/hflicka/ardensyntax-eclipse-plugin/issues', '#eclipseplugin');
+	queryIssues('https://api.github.com/repos/hflicka/arden2bytecode/issues', '#arden2bytecode');
 	queryIssues('https://api.github.com/repos/hflicka/ardensyntax-eclipse-plugin/issues', '#eclipseplugin');	
 });
 //]]>
