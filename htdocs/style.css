@@ -181,12 +181,12 @@ h1, h2, h3, h4, h5, h6 {
 	border-radius: 3px;
 }
 
-#issues {
+ul.issues {
 	list-style-type: none;
 	padding: 0;
 }
 
-#issues > li {
+li.issue {
 	list-style-type: none;
 	display: block;
 	
