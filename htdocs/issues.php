@@ -35,7 +35,8 @@ function formatIssue(issue) {
 				+ '<div class="issuebody">' + converter.makeHtml(issue.body) + '</div></li>';
 }
 
-function queryIssues(issuesurl, divselector, clear=true) {	
+function queryIssues(issuesurl, divselector, clear) {	
+	clear = typeof clear !== 'undefined' ? clear : false;
     $.ajax({
 		url: issuesurl,
 		dataType: 'jsonp'
