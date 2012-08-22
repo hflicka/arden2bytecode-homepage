@@ -32,8 +32,11 @@ $(function() {
 
 <h3>Source Packages</h3>
 
-<p>The most recent source package is in the master branch of the Git repository.
-You can download it from GitHub as <a href="https://github.com/hflicka/arden2bytecode/tarball/master">.tar.gz</a>
+<p>The most recent source package is in the master branch of the 
+<a href="https://github.com/hflicka/arden2bytecode">Git repository</a>.<br>Clone with:</p>
+<pre><code>$ git clone https://github.com/hflicka/arden2bytecode.git
+</code></pre>
+<p>You can download it from GitHub as <a href="https://github.com/hflicka/arden2bytecode/tarball/master">.tar.gz</a>
 or <a href="https://github.com/hflicka/arden2bytecode/zipball/master">.zip</a>.<br>
 To build, follow the 
 <a href="http://arden2bytecode.sourceforge.net/docs/compiling-arden2bytecode-from-source">
