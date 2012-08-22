@@ -36,7 +36,7 @@ function formatIssue(issue) {
 }
 
 function queryIssues(issuesurl, divselector, clear) {	
-	clear = typeof clear !== 'undefined' ? clear : false;
+	clear = typeof clear !== 'undefined' ? clear : true;
     $.ajax({
 		url: issuesurl,
 		dataType: 'jsonp'
