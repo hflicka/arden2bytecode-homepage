@@ -54,8 +54,8 @@ function queryIssues(issuesurl, divselector, clear) {
 		$.each(result.data, function(index, issue) {
 			$(divselector).append(formatIssue(issue));
 		});
-		if (result.meta.Link) {
-			next = result.meta.Link.filter(function(obj){return obj[1]['rel']==="next";});
+		if (result.meta.Link) { // paging
+			var next = result.meta.Link.filter(function(obj){return obj[1]['rel']==="next";});
 			if (next.length) {
 				queryIssues(next[0][0].replace(/callback=\w*&/, ''), divselector, false);
 			}
