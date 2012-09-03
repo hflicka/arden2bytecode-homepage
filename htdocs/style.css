@@ -1,6 +1,6 @@
 
 body, html {
-	font-family: 'Geneva', 'Verdana', sans-serif;
+	font-family: 'Verdana', sans-serif;
 	background-color: #fff;
 	margin: 0px;
 	padding: 0px;
@@ -8,8 +8,7 @@ body, html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-weight: normal;
-	font-style: italic;
+	font-weight: 600;
 }
 
 #head {
@@ -221,5 +220,5 @@ span.issueowner > a {
 }
 
 #changelog h3 {
-	font-size: 1.08em;
+	font-size: 0.95em;
 }
