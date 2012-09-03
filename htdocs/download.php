@@ -1,4 +1,7 @@
-<?php include "includes/head.php"; ?>
+<?php 
+include "includes/head.php";
+include_once "includes/docs.php"; 
+?>
 
 <h2>Arden2ByteCode Downloads</h2>
 
@@ -29,6 +32,10 @@ $(function() {
 });
 //]]>
 </script>
+
+<?php 
+	render_file('Changelog', '<h3>$title</h3>');
+?>
 
 <h3>Source Packages</h3>
 

@@ -35,7 +35,7 @@ function render_links($text) {
             $text);
 }
 
-function render_file($name) {
+function render_file($name, $header = '<h2><a href="/docs/">Documentation</a>: $title</h2>') {
 	global $textile, $wiki_files, $wiki_files_canonical;
 
 	$canonical_name = canonicalize_name($name);
@@ -51,7 +51,7 @@ function render_file($name) {
 	}
 	
 	$file = file_get_contents($filename);
-	$result = '<h2><a href="/docs/">Documentation</a>: ' . title_from_filename($filename) . '</h2>';
+	$result = str_ireplace('$title', title_from_filename($filename), $header);
 	if (substr($filename, -strlen('.textile')) == '.textile') {
 		$result .= $textile->TextileThis($file);
 	} else if (substr($filename, -strlen('.md')) == '.md') {
