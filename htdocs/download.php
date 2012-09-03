@@ -33,9 +33,11 @@ $(function() {
 //]]>
 </script>
 
+<div id="changelog">
 <?php 
-	render_file('Changelog', '<h3>$title</h3>');
+	echo render_file('Changelog', '<h2><a href="/docs/changelog">$title</a></h2>');
 ?>
+</div>
 
 <h3>Source Packages</h3>
 

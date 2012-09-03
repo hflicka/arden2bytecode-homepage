@@ -212,3 +212,14 @@ span.issueowner > a {
 	color: #88f;
 }
 
+#changelog h1 {
+	font-size: 1.5em;
+}
+
+#changelog h2 {
+	font-size: 1.17em;
+}
+
+#changelog h3 {
+	font-size: 1.08em;
+}
