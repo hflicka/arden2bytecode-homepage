@@ -1,6 +1,6 @@
 <?php include "includes/head.php"; ?>
 
-<h2>Arden Syntax Editor Eclipse Plugin</h2>
+<h2>Arden4Eclipse plugin</h2>
 
 <p>There is an Arden Syntax Editor made with <a href="http://www.xtext.org/">xText</a> available as Eclipse plugin.</p>
 

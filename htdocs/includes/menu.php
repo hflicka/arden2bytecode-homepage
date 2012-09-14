@@ -4,7 +4,7 @@
 <ul>
 <li><a href="/">About</a></li>
 <li><a href="/download">Downloads</a></li>
-<li><a href="/eclipse-plugin">Eclipse Plugin</a></li>
+<li><a href="/arden4eclipse">Arden4Eclipse</a></li>
 <li><a href="/docs/">Documentation</a>
 <?php 
 	render_file_list("/docs/"); 
