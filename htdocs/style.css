@@ -8,8 +8,7 @@ body, html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-weight: normal;
-	font-style: italic;
+	font-weight: 600;
 }
 
 #head {
@@ -138,4 +137,88 @@ h1, h2, h3, h4, h5, h6 {
 #main pre > code {
 	border: none;
 	background-color: transparent;
+}
+
+#devdocs h1 {
+	font-size: 1.5em;
+}
+
+#devdocs h2 {
+	font-size: 1.17em;
+}
+
+#devdocs h3 {
+	font-size: 1.08em;
+}
+
+#includes .mdname {
+	font-style: normal;
+	font-family: monospace;
+	font-size: 1.2em;
+	font-weight: bold;
+	
+	background-color: #e8efff;
+	border: 1px solid #ccd;
+	margin: 10px 0px 2px 0px;
+	padding: 6px 10px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#includes hr {
+	display: none;
+}
+
+#includes div {
+	margin: 10px 0px 2px 0px;
+	
+	border: 1px solid #ddd;
+	padding: 6px 10px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+ul.issues {
+	list-style-type: none;
+	padding: 0;
+}
+
+li.issue {
+	list-style-type: none;
+	display: block;
+	
+	margin: 10px 0px 2px 0px;
+	
+	border: 1px solid #ddd;
+	padding: 6px 10px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+span.issuetitle {
+	font-weight: bold;
+}
+
+span.issueowner {
+	font-weight: normal;
+	color: #888;
+}
+
+span.issueowner > a {
+	color: #88f;
+}
+
+#changelog h1 {
+	font-size: 1.5em;
+}
+
+#changelog h2 {
+	font-size: 1.17em;
+}
+
+#changelog h3 {
+	font-size: 0.95em;
 }

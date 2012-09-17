@@ -1,0 +1,35 @@
+#!/bin/sh
+
+# this script generates developer documentation from all README.md files in the git repositories cloned below
+echo "generating developer docs..."
+
+TMPDIR=$(mktemp -d)
+OUTPUT=/home/project-web/arden2bytecode/arden2bytecode-homepage/htdocs/includes/developerdocs.html
+
+if [ -n "$1" ]; then
+  OUTPUT=$1
+fi
+
+pushd $TMPDIR
+
+# get all arden2bytecode repos
+git clone https://github.com/hflicka/example-mlms.git
+git clone https://github.com/hflicka/arden2bytecode-homepage.git
+git clone https://github.com/hflicka/ardensyntax-eclipse-plugin.git
+git clone https://github.com/hflicka/arden2bytecode.git
+
+# clone and compile markdown parser
+git clone https://github.com/vmg/sundown.git
+
+cd sundown
+make
+cd ..
+
+popd
+
+# concatenate all markdown files and add headings
+find $TMPDIR -name README.md -and -not -name sundown -exec echo \<hr\>\<h1 class=\"mdname\"\>NAME:{}\</h1\>\<div class=\"doc\"\> \; -exec $TMPDIR/sundown/sundown {} \; -exec echo \</div\> \; | sed "s|NAME:$TMPDIR/||" > $OUTPUT
+
+rm -rf $TMPDIR
+
+echo "done. docs are in $OUTPUT"

@@ -2,6 +2,12 @@ RewriteEngine on
 Options +FollowSymlinks
 
 RewriteBase /
+
+# rewrite access to root:
 RewriteRule ^$ index.php [QSA,L]
+
+# rewrite wiki pages:
 RewriteRule ^/?docs/([a-zA-Z0-9\-_!\?\ ]*)$ docs.php?view=$1 [QSA,L]
+
+# add .php extension to URLs that are direct children of the root directory:
 RewriteRule ^/?([a-zA-Z0-9\-_]+)$ $1.php [QSA,L]

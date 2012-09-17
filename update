@@ -1,13 +1,41 @@
 #!/bin/sh
 exec 2>&1
 echo "update script"
-cd /home/project-web/arden2bytecode/arden2bytecode-homepage
-pwd
-#/home/project-web/arden2bytecode/git/bin/git clone http://github.com/hflicka/arden2bytecode-homepage.git
-#/home/project-web/arden2bytecode/git/bin/git submodule update --init
-/home/project-web/arden2bytecode/git/bin/git pull
-/home/project-web/arden2bytecode/git/bin/git submodule foreach /home/project-web/arden2bytecode/git/bin/git pull origin master
-rm -rf /home/project-web/arden2bytecode/htdocs
-rsync -r --exclude='.git' /home/project-web/arden2bytecode/arden2bytecode-homepage/htdocs /home/project-web/arden2bytecode/
+
+# variables pointing to directories
+PROJECT_WEB=/home/project-web/arden2bytecode
+REPO=$PROJECT_WEB/arden2bytecode-homepage
+TARGET_HTDOCS=$PROJECT_WEB/htdocs
+
+# set up git path
+PATH=/home/project-web/arden2bytecode/git/bin:$PATH
+
+
+# cd to repository
+cd $REPO
+echo "repository is in $(pwd)"
+echo "using git binary in $(which git)"
+
+# uncomment these lines if it is the first time you are 
+# running this script:
+#cd $PROJECT_WEB
+#git clone http://github.com/hflicka/arden2bytecode-homepage.git
+#cd $REPO
+#git submodule update --init
+
+# pull recent version
+git pull
+git submodule foreach git pull origin master
+
+# generate developer documentation, see makedocs script for more information
+if [ -x $REPO/makedocs ]; then
+    $REPO/makedocs $REPO/htdocs/includes/developerdocs.html
+fi
+
+# copy files to htdocs but exclude all .git directories
+rm -rf $TARGET_HTDOCS
+rsync -r --exclude='.git' $REPO/htdocs $PROJECT_WEB/
+
+# for your information
 echo "done"
 
