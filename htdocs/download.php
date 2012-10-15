@@ -8,7 +8,7 @@ include_once "includes/docs.php";
 <h3>Binary Packages</h3>
 
 <p>The most recent binary packages can be found at the GitHub project
-<a href="https://github.com/hflicka/arden2bytecode/archives/master">downloads listing</a>
+<a href="https://github.com/<?php echo $GIT_REPO_OWNER; ?>/arden2bytecode/archives/master">downloads listing</a>
 </p>
 
 <p>Here is a mirror of that listing:</p>
@@ -18,7 +18,7 @@ include_once "includes/docs.php";
 <script type="text/javascript">//<![CDATA[
 $(function() {
     $.ajax({
-		url: 'https://api.github.com/repos/hflicka/arden2bytecode/downloads',
+		url: 'https://api.github.com/repos/<?php echo $GIT_REPO_OWNER; ?>/arden2bytecode/downloads',
 		dataType: 'jsonp'
 	}).done(function(result) {
 		$('#downloads').empty();
@@ -42,11 +42,11 @@ $(function() {
 <h3>Source Packages</h3>
 
 <p>The most recent source package is in the master branch of the 
-<a href="https://github.com/hflicka/arden2bytecode">Git repository</a>.<br>Clone with:</p>
-<pre><code>$ git clone https://github.com/hflicka/arden2bytecode.git
+<a href="<?php echo $GIT_REPO_PREFIX; ?>/arden2bytecode">Git repository</a>.<br>Clone with:</p>
+<pre><code>$ git clone <?php echo $GIT_REPO_PREFIX; ?>/arden2bytecode.git
 </code></pre>
-<p>You can download it from GitHub as <a href="https://github.com/hflicka/arden2bytecode/tarball/master">.tar.gz</a>
-or <a href="https://github.com/hflicka/arden2bytecode/zipball/master">.zip</a>.<br>
+<p>You can download it from GitHub as <a href="<?php echo $GIT_REPO_PREFIX; ?>/arden2bytecode/tarball/master">.tar.gz</a>
+or <a href="<?php echo $GIT_REPO_PREFIX; ?>/arden2bytecode/zipball/master">.zip</a>.<br>
 To build, follow the 
 <a href="http://arden2bytecode.sourceforge.net/docs/compiling-arden2bytecode-from-source">
 instructions</a> in the documentation wiki. It's basically typing <code>ant</code> at the command prompt.</p>

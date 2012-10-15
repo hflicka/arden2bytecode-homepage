@@ -2,6 +2,9 @@
 exec 2>&1
 echo "update script"
 
+# repository url prefix:
+REPOSRC=http://github.com/hflicka
+
 # variables pointing to directories
 PROJECT_WEB=/home/project-web/arden2bytecode
 REPO=$PROJECT_WEB/arden2bytecode-homepage
@@ -19,7 +22,7 @@ echo "using git binary in $(which git)"
 # uncomment these lines if it is the first time you are 
 # running this script:
 #cd $PROJECT_WEB
-#git clone http://github.com/hflicka/arden2bytecode-homepage.git
+#git clone $REPOSRC/arden2bytecode-homepage.git
 #cd $REPO
 #git submodule update --init
 

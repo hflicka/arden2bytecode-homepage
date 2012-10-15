@@ -3,6 +3,8 @@
 # this script generates developer documentation from all README.md files in the git repositories cloned below
 echo "generating developer docs..."
 
+# repository url prefix:
+REPOSRC=https://github.com/hflicka
 TMPDIR=$(mktemp -d)
 OUTPUT=/home/project-web/arden2bytecode/arden2bytecode-homepage/htdocs/includes/developerdocs.html
 
@@ -13,10 +15,10 @@ fi
 pushd $TMPDIR
 
 # get all arden2bytecode repos
-git clone https://github.com/hflicka/example-mlms.git
-git clone https://github.com/hflicka/arden2bytecode-homepage.git
-git clone https://github.com/hflicka/ardensyntax-eclipse-plugin.git
-git clone https://github.com/hflicka/arden2bytecode.git
+git clone $REPOSRC/example-mlms.git
+git clone $REPOSRC/arden2bytecode-homepage.git
+git clone $REPOSRC/ardensyntax-eclipse-plugin.git
+git clone $REPOSRC/hflicka/arden2bytecode.git
 
 # clone and compile markdown parser
 git clone https://github.com/vmg/sundown.git

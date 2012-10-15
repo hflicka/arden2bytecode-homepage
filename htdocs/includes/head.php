@@ -7,6 +7,10 @@
 ?><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+    <?php 
+        $GIT_REPO_OWNER = "hflicka";
+        $GIT_REPO_PREFIX = "https://github.com/" . $GIT_REPO_OWNER;
+    ?>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<title>Arden2ByteCode Arden Syntax Compiler</title>
 	<link rel="stylesheet" href="/style.css" type="text/css" media="all">

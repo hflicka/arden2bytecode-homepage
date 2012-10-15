@@ -9,7 +9,7 @@ under the terms of the GNU
 <h3>View Source Code with Web Browser</h3>
 
 <p>The source code of Arden2ByteCode ist hosted at 
-GitHub: <a href="http://github.com/hflicka/arden2bytecode">http://github.com/hflicka/arden2bytecode</a>
+GitHub: <a href="<?php echo $GIT_REPO_PREFIX; ?>/arden2bytecode"><?php echo $GIT_REPO_PREFIX; ?>/arden2bytecode</a>
 </p>
 <p>
 If you want to contribute, sign up to GitHub and fork the project or, alternatively, ask me (hflicka@GitHub) to add you to the project.
@@ -18,10 +18,10 @@ If you want to contribute, sign up to GitHub and fork the project or, alternativ
 <h3>Public Git Repository</h3>
 
 <p>A public read-only version of the Arden2ByteCode Git repository is located at: 
-<a href="git://github.com/hflicka/arden2bytecode.git">
-git://github.com/hflicka/arden2bytecode.git</a>.
+<a href="git://github.com/<?php echo $GIT_REPO_OWNER; ?>/arden2bytecode.git">
+git://github.com/<?php echo $GIT_REPO_OWNER; ?>/arden2bytecode.git</a>.
 </p>
-<p>To clone, type:</p><p><code>git clone git://github.com/hflicka/arden2bytecode.git</code>
+<p>To clone, type:</p><p><code>git clone git://github.com/<?php echo $GIT_REPO_OWNER; ?>/arden2bytecode.git</code>
 </p>
 
 <h3>Developer Documentation</h3>
@@ -45,19 +45,19 @@ Still, work has to be done until Arden2ByteCode is production ready.</p>
 <p>Other repositories associated with Arden2ByteCode include:</p>
 <ul>
 <li>The Eclipse plugin repository: 
-<a href="git://github.com/hflicka/ardensyntax-eclipse-plugin.git">
-git://github.com/hflicka/ardensyntax-eclipse-plugin.git</a><br>
-Clone with: <code>git clone git://github.com/hflicka/ardensyntax-eclipse-plugin.git</code>
+<a href="git://github.com/<?php echo $GIT_REPO_OWNER; ?>/ardensyntax-eclipse-plugin.git">
+git://github.com/<?php echo $GIT_REPO_OWNER; ?>/ardensyntax-eclipse-plugin.git</a><br>
+Clone with: <code>git clone git://github.com/<?php echo $GIT_REPO_OWNER; ?>/ardensyntax-eclipse-plugin.git</code>
 </li>
 <li>A repository containing the Eclipse update site with binaries for the Arden Syntax Editor feature: 
-<a href="git://github.com/hflicka/ardensyntax-eclipse-plugin-update-site.git">
-git://github.com/hflicka/ardensyntax-eclipse-plugin-update-site.git</a><br>
-Clone with: <code>git clone git://github.com/hflicka/ardensyntax-eclipse-plugin-update-site.git</code>
+<a href="git://github.com/<?php echo $GIT_REPO_OWNER; ?>/ardensyntax-eclipse-plugin-update-site.git">
+git://github.com/<?php echo $GIT_REPO_OWNER; ?>/ardensyntax-eclipse-plugin-update-site.git</a><br>
+Clone with: <code>git clone git://github.com/<?php echo $GIT_REPO_OWNER; ?>/ardensyntax-eclipse-plugin-update-site.git</code>
 </li>
 <li>The repository of this website you're looking at: 
-<a href="git://github.com/hflicka/arden2bytecode-homepage.git">
-git://github.com/hflicka/arden2bytecode-homepage.git</a><br>
-Clone with: <code>git clone git://github.com/hflicka/arden2bytecode-homepage.git</code>
+<a href="git://github.com/<?php echo $GIT_REPO_OWNER; ?>/arden2bytecode-homepage.git">
+git://github.com/<?php echo $GIT_REPO_OWNER; ?>/arden2bytecode-homepage.git</a><br>
+Clone with: <code>git clone git://github.com/<?php echo $GIT_REPO_OWNER; ?>/arden2bytecode-homepage.git</code>
 </li>
 </ul>
 
