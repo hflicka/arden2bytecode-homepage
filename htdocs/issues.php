@@ -4,7 +4,7 @@
 
 <p>If you find a bug in Arden2ByteCode, please post it at 
 <a href="<?php echo $GIT_REPO_PREFIX; ?>/arden2bytecode/issues/new"
->https://github.com/hflicka/arden2bytecode/issues/new</a>.</p>
+><?php echo $GIT_REPO_PREFIX; ?>/arden2bytecode/issues/new</a>.</p>
 
 <h3>Open issues of <a href="<?php echo $GIT_REPO_PREFIX; ?>/arden2bytecode">Arden2ByteCode</a> at GitHub</h3>
 <ul id="arden2bytecode" class="issues"><li style="list-style-type: none;">Loading (requires JavaScript)...</li></ul>
